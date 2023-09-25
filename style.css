@@ -238,6 +238,10 @@ li:hover{
     text-decoration: none;
     color: white;
   }
+  img{
+    border-radius: 50%;
+  }
+  
   @media screen and (max-width: 700px) {
     
     /* .profileimg {
@@ -268,4 +272,29 @@ li:hover{
         align-items: center;
     }
 }
+form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  form h2 {
+    text-align: center;
+  }
+  
+  form input {
+    width: 100%;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #41578E;
+    border-bottom: solid white 2px ;
+    color: white;
+  }
+  
+  form input[type="submit"] {
+    background-color: #ffffff;
+    color: #41578E;
+    border: none;
+  }
 
