@@ -48,6 +48,7 @@
 }
 
 .mynavbar{
+    width: auto;
     z-index: 5;
     position: fixed;
     display: flex;
@@ -246,10 +247,10 @@ margin-top: 20px;
         padding-top: 50px;
     }
     h2{
-        font-size: 1em;
+        font-size: 1000;
     }
     h3{
-        font-size: 0.8em;
+        font-size: 800;
     }
     .container-b{
         flex-direction: column;
@@ -271,6 +272,10 @@ margin-top: 20px;
     .about{
         display: flex;
         flex-direction: column;
+    }
+    .mynavbar{
+        font-size: medium;
+
     }
 }
 form {
