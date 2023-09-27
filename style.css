@@ -8,17 +8,37 @@
     background-color: #41578E;
 }
 .footer{
-    height: 200px;
+    height: auto;
     background-color: #41578E;
-    display: flex;
     color: white;
     justify-content: space-between;
+}
+.footlast{
+    display: flex;
+    color: white;
     align-items: end;
-    padding: 20px;
+    justify-content: space-around;
+    font-size: large;
+}
+.footgrid{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    height: 200px;
+    justify-content: center;
+}
+.footlinks{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    font-size: larger;
+}
+.footcontact{
+    justify-content: space-around;
+    text-align: center;
 }
 .child{
-    /* height: 500px; */
-    margin: 5%;
+    margin: 2%;
     justify-content: space-around;
 }
 .profileinfo{
@@ -28,6 +48,7 @@
 }
 
 .mynavbar{
+    z-index: 5;
     position: fixed;
     display: flex;
     background-color: #36454F;
@@ -35,7 +56,7 @@
     height: 50px;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
-    font-size: 15px;
+    font-size: larger;
     align-items: center;
     width: 100%;
     justify-content: space-around;
@@ -109,14 +130,12 @@ margin-top: 20px;
 }
 .technologies{
     display: grid;
-    grid-template-columns: 31% 31% 31%;
+    grid-template-columns: 30% 30% 30%;
     grid-template-rows: 100px auto ;
-    justify-content: space-between;
-    
+    justify-content: space-around;   
 }
 .td1{
     text-align: center;
-    margin-top: 50px;
     grid-column: 1/4;
     color: #41578E;
 }
@@ -142,17 +161,9 @@ margin-top: 20px;
 * { 
     margin : 0;
     padding: 0;
-    box-sizing : border-box;
+    box-sizing : content-box;
     font-familly : "Poppins", sans-serif;
   }
-  /* body {
-    display : flex;
-    align-items : center;
-    justify-content : center;  
-    background-color: #43345d;
-    min-height : 800px;
-  } */
-  
   .container-b {
     position : relative;
     width : 100%;
@@ -218,9 +229,10 @@ margin-top: 20px;
     color: white;
   }
   .profileimg img{
-    height: 300px ;
-    width: 300px; 
-    border-radius: 50%;    
+    height: 400px ;
+    width: 400px; 
+    border-radius: 50%;   
+    margin-top: 50px; 
   }
   
   @media screen and (max-width: 700px) {
@@ -288,6 +300,5 @@ form {
   }
   .my-icons{
     font-size: xx-large;
-    margin-bottom: 8%;
   }
 
