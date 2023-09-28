@@ -12,6 +12,7 @@
     background-color: #41578E;
     color: white;
     justify-content: space-between;
+    padding: 5px;
 }
 .footlast{
     display: flex;
@@ -36,6 +37,7 @@
 .footcontact{
     justify-content: space-around;
     text-align: center;
+    margin-top: 15px;
 }
 .child{
     margin: 2%;
@@ -306,4 +308,18 @@ form {
   .my-icons{
     font-size: xx-large;
   }
+  .typewriter h1 {
+    overflow: hidden; /* Hide overflow text */
+    white-space: nowrap; /* Prevent text from wrapping */
+    animation: typing 3s steps(40, end) 1s infinite alternate-reverse; /* Animation properties */
+    font-style: inherit ;
+}
 
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
